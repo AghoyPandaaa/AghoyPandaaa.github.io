@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+  background-image: linear-gradient(#0046ae, #9198e5);
+}
+
+.bigpart {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  background: linear-gradient(0deg, rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+}
+.bigpart:hover {
+  background: linear-gradient(0deg, rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+}
+
+.bigpart {
+  border-radius: 20px;
+  margin-left: 85vh;
+  margin-top: 15vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: larger;
+  opacity: initial;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 6px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.coverimg {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.coverimg:hover {
+  box-shadow: 0 -1px 9px 0px black;
+}
+
+
+.songname {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 0 0px 12px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.singer {
+  color: #666666;
+  font-size: 18px;
+  text-align: center;
+text-shadow: 0 0px 16px black;
+  transition: 0.5s;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.singer:hover {
+  color: #2e2e2e;
+  cursor: pointer;
+}
+
+input {
+  width: 83%;
+  cursor: pointer;
+}
+
+.start {
+  color: white;
+  font-weight: bolder;
+}
+
+.end {
+  color: white;
+  font-weight: bolder;
+}
+
+.saat {
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.saat .start {
+  margin-right: 80px;
+}
+.saat .end {
+  margin-left: 85px;
+}
+
+::-moz-selection {
+  background: transparent;
+  color: #0046ae;
+}
+
+::selection {
+  background: transparent;
+  color: #0046ae;
+}
+
+.buttons {
+  text-decoration: none;
+  margin-left: -35px;
+  margin-top: 10px;
+}
+.buttons li {
+  display: inline-block;
+  margin: 0 13px 0 13px;
+}
+.buttons button {
+  border: none;
+
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  font-size: large;
+}
+.buttons button {
+  border: 3px solid #ffffff;
+  border-right-color: #8b8b87;
+  border-bottom-color: #8b8b87;
+  border-radius: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.buttons button:hover {
+  border: 3px solid rgba(161, 161, 157, 0.6509803922);
+  border-right-color: rgba(0, 0, 0, 0.6431372549);
+  border-bottom-color: rgba(0, 0, 0, 0.6431372549);
+  border-radius: 50%;
+}
